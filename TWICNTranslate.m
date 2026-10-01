@@ -952,6 +952,245 @@ static NSDictionary *TWICNDictionary(void)
             @"Thanks for using TWIGalaxy! 🎉\nDiscover more tweaks for Instagram and TikTok. Show your support to DeNsor! 🙌":
                 @"感谢使用 TWIGalaxy！🎉\n发现更多适用于 Instagram 和 TikTok 的增强功能。感谢支持 DeNsor！🙌",
             
+                                     //FahdTwitter
+            @"What's New in This Update?" : @"本次更新内容",
+            @"• Added a dedicated download icon next to (...) button for tweak options, keeping (...) for default Twitter actions smoothly." : @"• 在 (...) 按钮旁新增专用下载图标，用于插件选项，同时保留 (...) 按钮执行 X 的默认操作。",
+            @"• Significantly improved scrolling smoothness and fast timeline navigation." : @"• 大幅提升滚动流畅度，让时间线浏览更加顺畅。",
+            @"• Added a button to save the account and post info card directly to Photos." : @"• 新增按钮，可将账号和帖子信息卡直接保存到照片。",
+            @"• General performance enhancements and faster responsiveness across the app." : @"• 全面提升应用性能和响应速度。",
+            @"Update Available" : @"有可用更新",
+            @"A new version of FahdTwitter is available (1.2.4)." : @"FahdTwitter 有新版本可用（1.2.4）。",
+            @"Would you like to go to the download page?" : @"要前往下载页面吗？",
+            @"Support & Extras" : @"支持与其他",
+            @"Clear Cache Files" : @"清除缓存文件",
+            @"Clear cache and temporary directories to free space" : @"清除缓存和临时目录以释放空间",
+            @"Back" : @"返回",
+            @"English" : @"英语",
+            @"العربية" : @"阿拉伯语",
+            @"Download videos, audio, images, and tweets as image" : @"下载视频、音频、图片，并将帖子保存为图片",
+            @"Show custom download options menu when tapping share button" : @"点击分享按钮时显示自定义下载选项菜单",
+            @"Download high-quality videos directly from tweets" : @"直接从帖子下载高清视频",
+            @"Instant Photo Save" : @"即时保存图片",
+            @"Long-press to save high-quality images instantly" : @"长按即可立即保存高清图片",
+            @"Save DM voice messages as MP3 audio or MP4 video" : @"将私信语音消息保存为 MP3 音频或 MP4 视频",
+            @"Export Tweet Studio (Image / PDF)" : @"导出帖子工作室（图片 / PDF）",
+            @"Export tweet as single image, full conversation thread, or PDF" : @"将帖子导出为单张图片、完整对话串或 PDF",
+            @"Tweet Download & Options Icon" : @"帖子下载与选项图标",
+            @"Add download icon next to (...) button" : @"在 (...) 按钮旁添加下载图标",
+
+            @"Account Analysis" : @"账号分析",
+            @"Users you follow who don't follow back" : @"你关注但未回关你的用户",
+            @"Fans" : @"粉丝",
+            @"Users who follow you but you don't follow back" : @"关注你但你未回关的用户",
+            @"Users who follow you back" : @"回关你的用户",
+            @"Start Account Analysis" : @"开始账号分析",
+            @"Disable Video Auto-Advance" : @"禁用视频自动播放下一个",
+            @"Stop automatic transition to the next video when current ends" : @"当前视频结束后不再自动切换到下一个视频",
+
+            @"Mutual Followers" : @"互相关注",
+            @"Followers: 0  •  Following: 0" : @"关注者：0  •  正在关注：0",
+            @"Non-Followers" : @"未回关",
+
+            @"Media & Downloads" : @"媒体与下载",
+            @"DMs & Chat Settings" : @"私信与聊天设置",
+            @"Read DM messages without triggering seen status" : @"阅读私信时不触发已读状态",
+            @"Read anonymously, ghost typing, and chat biometric lock" : @"匿名阅读、隐身输入和聊天生物识别锁",
+            @"Confirmations Alerts" : @"确认提醒",
+            @"Prevent typing indicator notifications from being sent" : @"阻止发送正在输入提示",
+            @"Require biometric authentication to enter DM section" : @"进入私信页面时需要进行生物识别验证",
+            @"Follow, Retweet, and Save Confirmations" : @"关注、转发和保存确认",
+
+            @"UI & Search Customization" : @"界面与搜索自定义",
+            @"Hide ads, retweets, change date formats, hide checkmarks" : @"隐藏广告和转发、修改日期格式、隐藏认证标记",
+
+            @"Advanced Features Extras & Verification" : @"高级功能与认证",
+            @"Inline Download & Options Button" : @"内嵌下载与选项按钮",
+            @"Add download icon to the interaction buttons under the tweet" : @"在帖子下方的互动按钮中添加下载图标",
+            @"Share Media After Download" : @"下载后分享媒体",
+            @"Automatically open share sheet to share video or photo after download completes" : @"下载完成后自动打开分享菜单以分享视频或照片",
+
+            @"Lock DM Chats" : @"锁定私信聊天",
+            @"DMs & Chats Settings" : @"私信与聊天设置",
+            @"Follow, retweet, and save confirmations" : @"关注、转发和收藏确认",
+            @"Hide Search History" : @"隐藏搜索记录",
+            @"Automatically hide and clear recent search history" : @"自动隐藏并清除最近的搜索记录",
+            @"Force Left-to-Right layout" : @"强制从左到右布局",
+            @"Hide Tweet Timestamp" : @"隐藏帖子时间戳",
+            @"Remove timestamps from showing on tweets" : @"隐藏帖子上的时间戳",
+            @"Custom navigation" : @"自定义导航",
+            @"Custom Navigation Bar" : @"自定义导航栏",
+            @"Remove Spaces from Timeline" : @"从时间线移除 Spaces",
+            @"Remove live audio Spaces bar from the top of the home timeline" : @"从主页时间线顶部移除实时音频 Spaces 栏",
+            @"UI Customization" : @"界面自定义",
+
+            @"XPremium Blue Verification Badge" : @"X Premium 蓝色认证标记",
+            @"Premium & Verification" : @"高级功能与认证",
+            @"Spoof XPremium Subscription Features" : @"模拟 X Premium 订阅功能",
+
+            @"Downloading video..." : @"正在下载视频……",
+            @"Download Video" : @"下载视频",
+            @"Download video in highest quality" : @"以最高画质下载视频",
+            @"arrow.down.circle.fill" : @"arrow.down.circle.fill",
+            //@"Downloading video..." : @"正在下载视频……",
+
+            //@"Download Images" : @"下载图片",
+            @"Save images to camera roll" : @"将图片保存到相机胶卷",
+            @"Downloading image..." : @"正在下载图片……",
+            //@"Download Media" : @"下载媒体",
+            @"No media found in this tweet" : @"此帖子中未找到媒体",
+            @"Video saved successfully" : @"视频保存成功",
+            @"Failed to save video" : @"视频保存失败",
+            @"Image saved successfully" : @"图片保存成功",
+            @"Failed to save image" : @"图片保存失败",
+            @"Video save failed: %@" : @"视频保存失败：%@",
+            @"No media found to download" : @"未找到可下载的媒体",
+            @" (MP3)" : @"（MP3）",
+            @"Audio file saved successfully" : @"音频文件保存成功",
+            @"Export failed" : @"导出失败",
+
+            @"Download icon enabled" : @"下载图标已启用",
+            @"Followers: %lld" : @"关注者：%lld",
+            @" Following: %lld" : @" 正在关注：%lld",
+            @"Followers: %lu" : @"关注者：%lu",
+            @" Following: %lu" : @" 正在关注：%lu",
+            @"Download icon disabled" : @"下载图标已禁用",
+
+            @"Metrics copied" : @"数据已复制",
+            @"Tweets stats copied" : @"帖子数据已复制",
+            @"Verification copied" : @"认证信息已复制",
+            @"Privacy copied" : @"隐私信息已复制",
+            @"Website copied" : @"网站信息已复制",
+            @" (Bio)" : @"（简介）",
+            @"Bio copied" : @"简介已复制",
+            @"Name copied" : @"姓名已复制",
+            @"Username copied" : @"用户名已复制",
+            @"All details copied successfully" : @"所有详细信息已成功复制",
+
+            @"Failed to capture card image" : @"无法截取信息卡图片",
+            @"Card saved to Photos successfully" : @"信息卡已成功保存到照片",
+            @"Avatar saved successfully" : @"头像保存成功",
+            @"Failed to save avatar" : @"头像保存失败",
+            @"No avatar URL" : @"没有头像 URL",
+            @"Failed to load avatar" : @"头像加载失败",
+            @"No banner found" : @"未找到横幅",
+            @"Banner saved successfully" : @"横幅保存成功",
+            @"Failed to save banner" : @"横幅保存失败",
+            @"No banner set for this account" : @"此账号未设置横幅",
+
+            @"Color all tab icons enabled" : @"所有标签栏图标着色已启用",
+            @"Tweet action buttons coloring enabled" : @"帖子操作按钮着色已启用",
+            @"Theme color applied" : @"主题颜色已应用",
+            @"Alternate icons not supported" : @"不支持备用图标",
+            @"App icon changed successfully" : @"应用图标更换成功",
+            @"Failed to change icon" : @"更换图标失败",
+            @"Navigation saved successfully" : @"导航设置保存成功",
+
+
+            @"Developer & Support Settings" : @"开发者与支持设置",
+            @"Clear cache and restart application" : @"清除缓存并重启应用",
+
+            @"Custom Share Menu" : @"自定义分享菜单",
+            @"DMs & Chat" : @"私信与聊天",
+            @"Lock DM Chat" : @"锁定私信聊天",
+            @"To avoid account bans or restrictions from Twitter, please do not run the analysis more than once every 15 minutes.\n\nDo you want to start now?" : @"为避免 Twitter 封禁或限制账号，请不要每隔 15 分钟运行分析超过一次。\n\n要现在开始吗？",
+            @"Close" : @"关闭",
+            @"Prompt alert before executing a follow action" : @"执行关注操作前显示确认提示",
+            @"Prompt alert before liking a tweet" : @"喜欢帖子前显示确认提示",
+            @"Prompt alert before retweeting a tweet" : @"转发帖子前显示确认提示",
+            @"Bookmark Confirmation" : @"书签确认",
+            @"Prompt alert before bookmarking a tweet" : @"收藏帖子前显示确认提示",
+            @"Confirmations" : @"确认",
+
+            @"Tap a destination to add or remove it. Drag the bar below to reorder." : @"点击目标以添加或移除。拖动下方的栏来重新排序。",
+            @"Custom Navigation" : @"自定义导航",
+            @"Save" : @"保存",
+            @"Preview bar (drag to reorder):" : @"预览栏（拖动以重新排序）：",
+            @"Restore Defaults" : @"恢复默认设置",
+            @"Choose a custom app icon for your device's home screen. Change it any time." : @"为设备主屏幕选择自定义应用图标。你可以随时更换。",
+            @"Theme" : @"主题",
+
+            @"Important Warning" : @"重要警告",
+            @"Start" : @"开始",
+            @"Analyzing... %d%%" : @"正在分析... %d%%",
+            @"Hide the paid Subscribe button from tweets and profiles" : @"隐藏帖子和个人资料中的付费订阅按钮",
+            @"Display User ID Instead of Username" : @"显示用户 ID 而非用户名",
+            @"Show user numeric ID instead of screen @username" : @"显示用户数字 ID，而不是 @用户名",
+            @"Hide Usernames" : @"隐藏用户名",
+            @"Hide tweet authors screen names in the timeline" : @"隐藏时间线中帖子的作者用户名",
+            @"Hide Tweet Timestamps" : @"隐藏帖子时间戳",
+            //@"Remove timestamps from showing on tweets" : @"隐藏帖子上的时间戳",
+            @"Display Full Stats Counts" : @"显示完整数据计数",
+            @"Show exact counts (e.g. 1,542,120) instead of 1.5M" : @"显示精确数量（例如 1,542,120），而不是 1.5M",
+            @"Hide Users From Search Results" : @"从搜索结果中隐藏用户",
+            @"Filter out user accounts to show only topic queries" : @"过滤用户账号，仅显示话题搜索结果",
+            @"Hide Topics From Search Results" : @"从搜索结果中隐藏话题",
+            @"Filter out topic queries to show only user accounts" : @"过滤话题搜索结果，仅显示用户账号",
+            @"Disable Recent Search History" : @"禁用最近搜索记录",
+            @"Prevent recording and displaying recent search items" : @"阻止记录和显示最近的搜索记录",
+            @"Force Left-to-Right Layout" : @"强制从左到右布局",
+            @"Force LTR layout even in RTL languages" : @"即使使用从右到左语言，也强制采用从左到右布局",
+            @"Copy Profile Info" : @"复制个人资料信息",
+            @"Add a button in the profile header to copy bio, username, location, etc." : @"在个人资料页顶部添加按钮，用于复制简介、用户名、位置等信息",
+
+            @"X Premium Blue Verification Badge" : @"X Premium 蓝色认证标记",
+            @"Add local blue verification checkmark next to your name" : @"在你的姓名旁添加本地蓝色认证标记",
+            @"Spoof X Premium Subscription Features" : @"模拟 X Premium 订阅功能",
+            @"Spoof Blue status for full video downloads and limits bypass" : @"模拟蓝色订阅状态，以支持完整视频下载并绕过限制",
+            @"Keep video playback running while app is in background" : @"应用处于后台时保持视频播放",
+            @"Force HD Video Uploads" : @"强制高清视频上传",
+            @"Enable full HD uploads for all videos by default" : @"默认对所有视频启用全高清上传",
+            @"Reply via Web" : @"通过网页回复",
+            @"Bypass reply failure" : @"绕过回复失败",
+
+            @"Advanced Features & Verification" : @"高级功能与认证",
+            @"Confirm Clear" : @"确认清除",
+            @"Are you sure you want to delete temporary files?" : @"确定要删除临时文件吗？",
+
+            @"Theme Color" : @"主题颜色",
+            @"Choose custom accent color for Twitter elements (including Gold ✨)" : @"选择 X 元素的自定义强调色（包括金色 ✨）",
+            @"Card Theme (Night / Day)" : @"卡片主题（夜间 / 日间）",
+            @"Automatic (Follow Twitter)" : @"自动（跟随 X）",
+            @"App Icon" : @"应用图标",
+
+            @"Choose a theme color for your Twitter experience. This can only be seen by you." : @"选择 X 的主题颜色。此颜色仅对你可见。",
+            @"Color All Tab Icons" : @"为所有标签栏图标着色",
+            @"Apply theme accent to all tab bar icons" : @"将主题强调色应用于所有标签栏图标",
+            @"Color Tweet Action Buttons" : @"为帖子操作按钮着色",
+            @"Apply theme accent to reply, retweet, like & actions" : @"将主题强调色应用于回复、转发、喜欢及其他操作按钮",
+            @"Card Theme" : @"卡片主题",
+            @"Choose appearance for options & info cards" : @"选择选项和信息卡片的外观",
+            @"Automatic (Follow Twitter) ✓" : @"自动（跟随 X）✓",
+            @"Night (Dark)" : @"夜间（深色）",
+            @"Day (White)" : @"日间（白色）",
+            @"Choose custom app icon for your home screen" : @"为主屏幕选择自定义应用图标",
+            @"Share & Download Options" : @"分享与下载选项",
+            @"Download high quality video" : @"下载高清视频",
+            @"Save photos to camera roll" : @"将照片保存到相册",
+            @"Share Tweet (Default)" : @"分享帖子（默认）",
+            @"Open Twitter's official share sheet" : @"打开 Twitter 官方分享菜单",
+            @"Are you sure you want to bookmark this post?" : @"确定要收藏这篇帖子吗？",
+
+            @"Customize, reorder, and hide tab bar items" : @"自定义、重新排序和隐藏标签栏项目",
+            @"Hide Sponsored & Ads" : @"隐藏赞助内容与广告",
+            @"Remove promoted tweets, banner ads, and sponsor logos" : @"移除推广帖子、横幅广告和赞助商标志",
+
+            @"Premium Extras & Verification" : @"高级功能与认证",
+            @"Fake verified badge and HD uploads" : @"模拟认证标记和高清上传",
+
+            @"Dismiss" : @"忽略",
+            @"Sections" : @"分区",
+            @"Enable Tweak" : @"启用插件",
+            @"Enable all FahdTwitter tweak features" : @"启用 FahdTwitter 的所有插件功能",
+            @"Account & Profile Analysis" : @"账号与个人资料分析",
+            @"Analyze mutuals, unfollowers, and manage connections" : @"分析互相关注、取消关注者，并管理关注关系",
+
+            
+            
+            
+            
+            
+            
+            
         };
         
     });
@@ -1029,6 +1268,45 @@ NSString *TWICNTranslate(NSString *text)
                 @"感谢使用 TWIGalaxy！🎉"];
     }
 
+    
+    if ([text containsString:@"Analyzing..."])
+    {
+        text =
+            [text stringByReplacingOccurrencesOfString:
+                @"Analyzing..."
+            withString:
+                @"正在分析..."];
+    }
+
+    // 动态文本
+    if ([text containsString:@"Downloading video"])
+    {
+        text = [text stringByReplacingOccurrencesOfString:
+                @"Downloading video..."
+                withString:@"正在下载视频..."];
+    }
+    
+    for (NSString *key in dict)
+    {
+        text = [text stringByReplacingOccurrencesOfString:key
+                                               withString:dict[key]];
+    }
+
+
+    // 动态文本处理
+    text = [text stringByReplacingOccurrencesOfString:@"Followers:"
+                                           withString:@"关注者："];
+
+    text = [text stringByReplacingOccurrencesOfString:@"Following:"
+                                           withString:@"正在关注："];
+
+    return text;
+    
+    
+    
+    
+    
+    
     if ([text containsString:
             @"Discover more tweaks for Instagram and TikTok. Show your support to DeNsor!"])
     {
