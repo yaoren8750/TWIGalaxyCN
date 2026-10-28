@@ -959,8 +959,8 @@ static NSDictionary *TWICNDictionary(void)
             @"• Added a button to save the account and post info card directly to Photos." : @"• 新增按钮，可将账号和帖子信息卡直接保存到照片。",
             @"• General performance enhancements and faster responsiveness across the app." : @"• 全面提升应用性能和响应速度。",
             @"Update Available" : @"有可用更新",
-            @"A new version of FahdTwitter is available (1.2.4)." : @"FahdTwitter 有新版本可用（1.2.4）。",
-            @"Would you like to go to the download page?" : @"要前往下载页面吗？",
+            
+            @"Would you like to go to the download page?" : @"是否前往下载页面？",
             @"Support & Extras" : @"支持与其他",
             @"Clear Cache Files" : @"清除缓存文件",
             @"Clear cache and temporary directories to free space" : @"清除缓存和临时目录以释放空间",
@@ -1441,6 +1441,16 @@ NSString *TWICNTranslate(NSString *text)
             withString:
                 @"正在分析..."];
     }
+    
+    if ([text containsString:@"A new version of FahdTwitter is available"])
+    {
+        text =
+            [text stringByReplacingOccurrencesOfString:
+                @"A new version of FahdTwitter is available"
+            withString:
+                @"FahdTwitter 有新版本可用"];
+    }
+    
 
     // 动态文本
     if ([text containsString:@"Downloading video"])
