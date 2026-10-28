@@ -1347,8 +1347,18 @@ static NSDictionary *TWICNDictionary(void)
             @"Enable all FahdTwitter tweak features" : @"启用 FahdTwitter 的所有插件功能",
             @"Account & Profile Analysis" : @"账号与个人资料分析",
             @"Analyze mutuals, unfollowers, and manage connections" : @"分析互相关注、取消关注者，并管理关注关系",
-
-            
+            @"Spaces removed from timeline" : @"已从时间线上移除 Spaces",
+            @"Spaces removal disabled" : @"已关闭移除 Spaces",
+            @"Video auto-advance enabled" : @"已开启视频自动连播",
+            @"Video auto-advance disabled" : @"已关闭视频自动连播",
+            @"Selected font:" : @"已选择字体:",
+            @"Custom font enabled successfully" : @"已成功启用自定义字体",
+            @"Custom font disabled" : @"已关闭自定义字体",
+            @"Card theme saved successfully" : @"卡片主题已保存",
+            @"Restart App" : @"重启应用",
+            @"This option requires restarting X/Twitter to apply changes. Do you want to restart now?" : @"此选项需要重启 X/Twitter 才能生效。要立即重启吗？",
+            @"Restart" : @"重启",
+            @"Later" : @"稍后",            
             
             
             
