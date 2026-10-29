@@ -1360,10 +1360,131 @@ static NSDictionary *TWICNDictionary(void)
             @"Restart" : @"重启",
             @"Later" : @"稍后",            
             
+            @"Tweet action buttons coloring disabled" : @"禁用帖子操作按钮着色",
+@"Color all tab icons disabled" : @"禁用所有标签栏图标着色",
+            @"Improved stealth read for direct messages with 100% unseen status." : @"私密阅读私信优化，确保消息 100% 保持未读状态。",
+
+@"Fixed direct message notifications for seamless and reliable delivery." : @"修复私信通知问题，确保通知及时、稳定送达。",
+
+@"Fixed top navigation bar appearance in dark mode for seamless look." : @"修复深色模式下顶部导航栏的显示问题，让界面更加协调。",
+
+@"General performance, launch speed, and stability improvements." : @"优化整体性能、启动速度和稳定性。",
+
+@"DM Notification Tone" : @"私信通知音",
+
+@"System / App Default" : @"系统 / 应用默认",
+
+@"DM Notification Tone" : @"私信通知音",
+
+@"Choose preferred tone for incoming direct messages (tap to preview)" : @"选择收到私信时播放的提示音（轻点试听）",
+
+@"📁 Pick custom tone from Files app..." : @"📁 从「文件」App 选择自定义提示音…",
+
+@"Choose any audio file from your device (mp3, m4a, wav, caf)" : @"选择设备中的任意音频文件（mp3、m4a、wav、caf）",
+
+@"System / App Default" : @"系统 / 应用默认",
+
+@"Standard notification sound" : @"标准通知提示音",
+
+@"Twitter Chirp" : @"Twitter 经典提示音",
+
+@"Classic iconic Twitter bird chirp" : @"经典的 Twitter 小鸟鸣叫声",
+
+@"X Modern Ping" : @"X 现代提示音",
+
+@"Clean modern notification sound" : @"简洁现代的通知提示音",
+
+@"Tri-Tone" : @"三音提示",
+
+@"Apple's classic triple tone" : @"Apple 经典的三音提示音",
+
+@"Aurora" : @"极光",
+
+@"Gentle ambient chime" : @"轻柔空灵的提示音",
+
+@"Bamboo" : @"竹韵",
+
+@"Crisp organic wooden tap" : @"清脆自然的木质敲击声",
+
+@"Popcorn" : @"爆米花",
+
+@"Playful bubbly pop sound" : @"轻快活泼的啵啵声",
+
+@"Bell & Chime" : @"钟声与铃音",
+
+@"Clear and audible bell chime" : @"清晰悦耳的钟铃声",
+
+@"Pulse" : @"脉冲",
+
+@"Subtle modern pulse chime" : @"低调现代的脉冲提示音",
+
+@"Silent (No Sound)" : @"静音（无提示音）",
+
+@"Receive visual banner with no sound" : @"仅显示通知横幅，不播放声音",
+
+@"Tone set: X Modern Ping 🔔" : @"提示音已设为：X 现代提示音 🔔",
+
+@"Backup & Settings Management" : @"备份与设置管理",
+
+@"Export, import, reset settings, and clear cache" : @"导出、导入、重置设置及清理缓存",
+
+@"Export settings" : @"导出设置",
+
+@"Create and share settings backup file" : @"创建并分享设置备份文件",
+
+@"Import settings" : @"导入设置",
+
+@"Restore settings from JSON backup file" : @"从 JSON 备份文件恢复设置",
+
+@"Reset settings" : @"重置设置",
+
+@"Restore all settings back to default values" : @"将所有设置恢复为默认值",
+
+@"Reset settings" : @"重置设置",
+
+@"Are you sure you want to reset all FahdTwitter settings to default values?" : @"确定要将 FahdTwitter 的所有设置恢复为默认值吗？",
+
+@"Reset" : @"重置",
+
+@"Import Successful ✅" : @"导入成功 ✅",
+
+@"All settings have been restored successfully." : @"所有设置均已成功恢复。",
+
+@"Would you like to restart Twitter now to apply all changes?" : @"是否立即重启 Twitter 以应用所有更改？",
+
+@"Restart Now" : @"立即重启",
             
-            
-            
-            
+@"Invalid backup file format" : @"备份文件格式无效",
+
+@"Settings exported successfully" : @"设置已成功导出",
+@"Tweet saved to Photos successfully" : @"推文已成功保存到照片",
+@"Tweet image copied to clipboard" : @"推文图片已复制到剪贴板",
+
+@"Save images to camera roll" : @"将图片保存到相册",
+@"No data for PDF export" : @"没有可导出为 PDF 的数据",
+@"PDF document ready" : @"PDF 文档已准备就绪",
+@"No image to copy" : @"没有可复制的图片",
+            @"No image to share" : @"没有可分享的图片",
+            @"Saving image..." : @"正在保存图片...",
+            @"Tone set: System / App Default" : @"提示音已设置：系统 / 应用默认",
+            @"Tone set: Standard notification sound" : @"提示音已设置：标准通知音",
+            @"Tone set: Twitter Chirp" : @"提示音已设置：Twitter 鸟鸣声",
+            @"Tone set: Classic iconic Twitter bird chirp" : @"提示音已设置：经典 Twitter 小鸟鸣叫声",
+            @"Tone set: Clean modern notification sound" : @"提示音已设置：简洁现代通知音",
+            @"Tone set: Tri-Tone" : @"提示音已设置：三音调",
+            @"Tone set: Apple's classic triple tone" : @"提示音已设置：Apple 经典三连音",
+            @"Tone set: Aurora" : @"提示音已设置：极光",
+            @"Tone set: Gentle ambient chime" : @"提示音已设置：柔和环境铃声",
+            @"Tone set: Bamboo" : @"提示音已设置：竹韵",
+            @"Tone set: Crisp organic wooden tap" : @"提示音已设置：清脆自然的木质敲击声",
+            @"Tone set: Popcorn" : @"提示音已设置：爆米花",
+            @"Tone set: Playful bubbly pop sound" : @"提示音已设置：俏皮活泼的啵啵声",
+            @"Tone set: Bell & Chime" : @"提示音已设置：钟声与铃音",
+            @"Tone set: Clear and audible bell chime" : @"提示音已设置：清晰悦耳的钟铃声",
+            @"Tone set: Pulse" : @"提示音已设置：脉冲",
+            @"Tone set: Subtle modern pulse chime" : @"提示音已设置：低调现代的脉冲铃声",
+            @"Tone set: Silent (No Sound)" : @"提示音已设置：静音（无声音）",
+
             
         };
         
